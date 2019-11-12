@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Swapnil Mishra</title>
+    <link>https://s-mishra.github.io/authors/</link>
+      <atom:link href="https://s-mishra.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 12 Nov 2019 14:58:55 +0000</lastBuildDate>
+    <image>
+      <url>https://s-mishra.github.io/img/potrait.jpg</url>
+      <title>Authors</title>
+      <link>https://s-mishra.github.io/authors/</link>
+    </image>
+    
+    <item>
+      <title>Swapnil Mishra</title>
+      <link>https://s-mishra.github.io/authors/swapnil-mishra/</link>
+      <pubDate>Tue, 12 Nov 2019 14:58:55 +0000</pubDate>
+      <guid>https://s-mishra.github.io/authors/swapnil-mishra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lexing Xie</title>
+      <link>https://s-mishra.github.io/authors/lexing-xie/</link>
+      <pubDate>Fri, 06 Apr 2018 14:57:58 +0000</pubDate>
+      <guid>https://s-mishra.github.io/authors/lexing-xie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marian-Andrei Rizoiu</title>
+      <link>https://s-mishra.github.io/authors/marian-andrei-rizoiu/</link>
+      <pubDate>Fri, 06 Apr 2018 14:57:58 +0000</pubDate>
+      <guid>https://s-mishra.github.io/authors/marian-andrei-rizoiu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Young Lee</title>
+      <link>https://s-mishra.github.io/authors/young-lee/</link>
+      <pubDate>Sun, 11 Feb 2018 05:02:31 +1000</pubDate>
+      <guid>https://s-mishra.github.io/authors/young-lee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mark Carman</title>
+      <link>https://s-mishra.github.io/authors/mark-carman/</link>
+      <pubDate>Mon, 06 Nov 2017 05:02:11 +1000</pubDate>
+      <guid>https://s-mishra.github.io/authors/mark-carman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quyu Kong</title>
+      <link>https://s-mishra.github.io/authors/quyu-kong/</link>
+      <pubDate>Mon, 06 Nov 2017 05:02:11 +1000</pubDate>
+      <guid>https://s-mishra.github.io/authors/quyu-kong/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wray L. Buntine</title>
+      <link>https://s-mishra.github.io/authors/wray-l.-buntine/</link>
+      <pubDate>Sun, 24 Aug 2014 05:01:45 +1000</pubDate>
+      <guid>https://s-mishra.github.io/authors/wray-l.-buntine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://s-mishra.github.io/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://s-mishra.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;I am a Post-doc at &lt;a href=&#34;https://www.imperial.ac.uk/school-public-health&#34; target=&#34;_blank&#34;&gt;School of Public Health, Imperial College London&lt;/a&gt;, where  I work primarily with &lt;a href=&#34;https://scholar.google.com.au/citations?user=tL0x_vUAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Dr. Samir Bhatt&lt;/a&gt; and &lt;a href=&#34;http://sethrf.com/&#34; target=&#34;_blank&#34;&gt;Dr. Seth Flaxman&lt;/a&gt;. I did my Ph.D. at &lt;a href=&#34;https://cs.anu.edu.au/&#34; target=&#34;_blank&#34;&gt;Research School of Computer Science, The Australian National University&lt;/a&gt; under the supervision of &lt;a href=&#34;http://users.cecs.anu.edu.au/~xlx/&#34; target=&#34;_blank&#34;&gt;Professor Lexing Xie&lt;/a&gt; and &lt;a href=&#34;http://rizoiu.eu/&#34; target=&#34;_blank&#34;&gt;Dr Marian-Andrei Rizoiu&lt;/a&gt;. I have also worked with &lt;a href=&#34;https://topicmodels.org/about/&#34; target=&#34;_blank&#34;&gt;Professor Wray Buntine&lt;/a&gt; at Monash University.&lt;/p&gt;
+
+&lt;p&gt;My current research focuses on developing flexible and scalable models for understanding various spatiotemporal data, for example, epidemics (Malaria, HIV) and crime. I am currently funded by the Gates foundation to work on mapping and modeling Malaria. For my doctorate, I  built models for understanding the evolution of popularity in social media. My work focused on algorithms to model point processes with classical machine learning techniques as well as using modern deep learning networks, mainly recurrent networks.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://s-mishra.github.io/files/cv.pdf&#34;&gt;Download my CV&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

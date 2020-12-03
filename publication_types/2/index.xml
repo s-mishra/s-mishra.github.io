@@ -5,12 +5,28 @@
     <link>https://s-mishra.github.io/publication_types/2/</link>
       <atom:link href="https://s-mishra.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020</copyright><lastBuildDate>Fri, 24 Jul 2020 06:12:13 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020</copyright><lastBuildDate>Wed, 25 Nov 2020 22:32:04 +0000</lastBuildDate>
     <image>
       <url>https://s-mishra.github.io/img/portrait.jpg</url>
       <title>2</title>
       <link>https://s-mishra.github.io/publication_types/2/</link>
     </image>
+    
+    <item>
+      <title>Inference of COVID-19 epidemiological distributions from Brazilian hospital data</title>
+      <link>https://s-mishra.github.io/publication/rsif-20/</link>
+      <pubDate>Wed, 25 Nov 2020 22:32:04 +0000</pubDate>
+      <guid>https://s-mishra.github.io/publication/rsif-20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>State-level tracking of COVID-19 in the United States.</title>
+      <link>https://s-mishra.github.io/publication/usa-20/</link>
+      <pubDate>Thu, 15 Oct 2020 05:25:07 +0100</pubDate>
+      <guid>https://s-mishra.github.io/publication/usa-20/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The impact of COVID-19 and strategies for mitigation and suppression in low- and middle-income countries</title>

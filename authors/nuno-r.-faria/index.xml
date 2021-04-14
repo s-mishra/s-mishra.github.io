@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ingra M. Claro | Swapnil Mishra</title>
-    <link>https://s-mishra.github.io/authors/ingra-m.-claro/</link>
-      <atom:link href="https://s-mishra.github.io/authors/ingra-m.-claro/index.xml" rel="self" type="application/rss+xml" />
-    <description>Ingra M. Claro</description>
+    <title>Nuno R. Faria* | Swapnil Mishra</title>
+    <link>https://s-mishra.github.io/authors/nuno-r.-faria/</link>
+      <atom:link href="https://s-mishra.github.io/authors/nuno-r.-faria/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nuno R. Faria*</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2021</copyright><lastBuildDate>Wed, 14 Apr 2021 15:00:00 +0100</lastBuildDate>
     <image>
       <url>https://s-mishra.github.io/img/portrait.jpg</url>
-      <title>Ingra M. Claro</title>
-      <link>https://s-mishra.github.io/authors/ingra-m.-claro/</link>
+      <title>Nuno R. Faria*</title>
+      <link>https://s-mishra.github.io/authors/nuno-r.-faria/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://s-mishra.github.io/publication/science-p1/</link>
       <pubDate>Wed, 14 Apr 2021 15:00:00 +0100</pubDate>
       <guid>https://s-mishra.github.io/publication/science-p1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Evolution and epidemic spread of SARS-CoV-2 in Brazil</title>
-      <link>https://s-mishra.github.io/publication/science-nuno/</link>
-      <pubDate>Thu, 23 Jul 2020 06:12:19 +0100</pubDate>
-      <guid>https://s-mishra.github.io/publication/science-nuno/</guid>
       <description></description>
     </item>
     

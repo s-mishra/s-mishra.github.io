@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: '$π$ VAE: a stochastic process prior for Bayesian deep learning with MCMC'
+title: 'π VAE: a stochastic process prior for Bayesian deep learning with MCMC'
 subtitle: ''
 summary: ''
 authors:
@@ -14,8 +14,9 @@ authors:
 tags: []
 categories: []
 date: '2022-01-01'
+doi: "10.1007/s11222-022-10151-w"
 lastmod: 2022-10-30T08:24:27+01:00
-featured: false
+featured: true
 draft: false
 
 # Featured image
@@ -35,6 +36,14 @@ projects: []
 publishDate: '2022-10-30T07:24:27.157295Z'
 publication_types:
 - '2'
-abstract: ''
+abstract: 'Stochastic processes provide a mathematically elegant way to model complex data. In theory, they provide flexible priors over function classes that can encode a wide range of interesting assumptions. However, in practice efficient inference by optimisation or marginalisation is difficult, a problem further exacerbated with big data and high dimensional input spaces. We propose a novel variational autoencoder (VAE) called the prior encoding variational autoencoder (𝜋VAE). 𝜋VAE is a new continuous stochastic process. We use 𝜋VAE to learn low dimensional embeddings of function classes by combining a trainable feature mapping with generative model using a VAE. We show that our framework can accurately learn expressive function classes such as Gaussian processes, but also properties of functions such as their integrals. For popular tasks, such as spatial interpolation, 𝜋VAE achieves state-of-the-art performance both in terms of accuracy and computational efficiency. Perhaps most usefully, we demonstrate an elegant and scalable means of performing fully Bayesian inference for stochastic processes within probabilistic programming languages such as Stan.'
 publication: '*Statistics and Computing*'
+
+links:
+- name: Supplementary Material
+  url: https://link.springer.com/article/10.1007/s11222-022-10151-w#appendices
+
+url_pdf: "https://link.springer.com/content/pdf/10.1007/s11222-022-10151-w.pdf"
+url_code: "https://github.com/MLGlobalHealth/pi-vae "
+url_dataset: "https://github.com/MLGlobalHealth/pi-vae "
 ---

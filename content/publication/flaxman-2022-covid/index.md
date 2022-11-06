@@ -40,7 +40,7 @@ image:
 projects: []
 publishDate: '2022-10-30T07:24:27.071830Z'
 publication_types:
-- '2'
+- '3'
 abstract: ''
 publication: '*medRxiv*'
 ---

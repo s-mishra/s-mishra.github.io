@@ -38,7 +38,7 @@ image:
 projects: []
 publishDate: '2022-10-30T07:24:27.329297Z'
 publication_types:
-- '2'
+- '3'
 abstract: ''
 publication: '*arXiv preprint arXiv:2210.14221*'
 ---

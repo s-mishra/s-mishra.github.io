@@ -14,7 +14,12 @@ subtitle = ""
 weight = 60
 
 +++
+### __Digital Technology Development Award Wellcome Trust__
 
+- __Year:__ 2022-2027
+- __Granting Agency:__ Imperial College London
+- __Amount:__ $612,665 USD
+- __Role:__ Co-Principal Investigator
 ### __Imperial COVID-19 Response Fund__
 
 - __Year:__ 2020-2021

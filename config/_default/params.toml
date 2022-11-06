@@ -85,23 +85,23 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", repo_branch 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "s.mishra@imperial.ac.uk"
-phone = "+44 (0)20 7594 9222"
+email = "swapnilmishra dot anu at gmail dot com"
+phone = "+45 35 32 22 78"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "Norflok Place", city = "London", region = "London", postcode = "W2 1PG", country = "United Kingdom", country_code = "UK"}
+address = {street = "Bartholinsgade 6Q, 2. sal", city = "København K", region = "", postcode = "1356", country = "DENMARK", country_code = "DK"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "51.517615", longitude = "-0.1755417"}
+coordinates = {latitude = "55.687496", longitude = "12.567644"}
 
 # Directions for visitors to locate you.
-directions = "Enter Building 1 and ask security on your left to call me on extension 49222"
+directions = "Enter the second door in the building and ring the bell on the door to the left."
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
-office_hours = ["Monday-Friday 09:00 to 18:00"]
+office_hours = ["Monday-Friday 09:00 to 15:00"]
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 appointment_url = ""

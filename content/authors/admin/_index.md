@@ -14,8 +14,8 @@ role: Assistant Professor
 
 # Organizations/Affiliations
 organizations:
-- name: University of Copenhagen
-  url: "https://publichealth.ku.dk/"
+- name: National University of Singapore
+  url: "https://sph.nus.edu.sg/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include geostatistics, infectious disease modelling, online popularity and machine learning for health.
@@ -77,6 +77,6 @@ user_groups:
 - Visitors
 ---
 
-I am an Assistant Professor at [University of Copenhagen (UCPH)](https://publichealth.ku.dk/), where I am primarily working at intersection of public health, machine learning and Bayesian modelling. I am part of [Machine Learning & Global Health Network](https://mlgh.net), which is a multi-country and multi-organisation network focused on doing fundamental research in machine learning and problems related to global health. 
+I am an Assistant Professor at [National University of Singapore (NUS)](https://sph.nus.edu.sg/), where I am primarily working at intersection of public health, machine learning and Bayesian modelling. I am part of [Machine Learning & Global Health Network](https://mlgh.net), which is a multi-country and multi-organisation network focused on doing fundamental research in machine learning and problems related to global health. 
 
 My research focuses on applying and developing statistical machine learning techniques for the broader and messier world of science and public policy, especially global health. I develop flexible and scalable models for understanding various spatiotemporal data, for example, epidemics (COVID-19, Malaria, HIV) and crime. For my doctorate, I  built models for understanding the evolution of popularity in social media. My work focused on algorithms to model point processes with classical machine learning techniques as well as using modern deep learning networks, mainly recurrent networks.

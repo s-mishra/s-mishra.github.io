@@ -219,6 +219,7 @@ h1, h2, h3 { line-height: 1.18; font-weight: 650; letter-spacing: -0.015em; }
 /* Contact */
 .contact-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 34px; text-align: center; box-shadow: var(--shadow-sm); }
 .contact-card p { color: var(--text-soft); max-width: 52ch; margin: 0 auto 22px; }
+.email-row { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
 
 /* Footer */
 .footer { border-top: 1px solid var(--border); padding: 30px 0; color: var(--text-mut); font-size: .88rem; }

@@ -1,6 +1,7 @@
 {
   "name": "Swapnil Mishra",
-  "tagline": "Presidential Young Professor & Assistant Professor",
+  "tagline": "NRF Fellow, Presidential Young Professor (Assistant Professor)",
+  "emails": ["swapnil.mishra@nus.edu.sg", "swapnilmishra.anu@gmail.com"],
   "affiliation": "Saw Swee Hock School of Public Health, National University of Singapore",
   "affiliationUrl": "https://sph.nus.edu.sg/",
   "photo": "assets/img/profile.jpg",
@@ -42,11 +43,10 @@
     {"degree": "B.E. in Computer Engineering", "institution": "University of Pune", "year": "2009"}
   ],
   "social": [
-    {"label": "Email", "icon": "email", "url": "mailto:swapnilmishra.anu@gmail.com"},
+    {"label": "Email", "icon": "email", "url": "mailto:swapnil.mishra@nus.edu.sg"},
     {"label": "Google Scholar", "icon": "scholar", "url": "https://scholar.google.com/citations?user=RqbpaXcAAAAJ"},
     {"label": "ORCID", "icon": "orcid", "url": "https://orcid.org/0000-0002-8759-5902"},
     {"label": "GitHub", "icon": "github", "url": "https://github.com/s-mishra"},
-    {"label": "X / Twitter", "icon": "twitter", "url": "https://twitter.com/creswapi"},
     {"label": "NUS Profile", "icon": "university", "url": "https://discovery.nus.edu.sg/24081-swapnil-mishra"},
     {"label": "CV", "icon": "cv", "url": "assets/files/cv.pdf"}
   ]

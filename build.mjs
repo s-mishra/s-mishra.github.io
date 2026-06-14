@@ -14,8 +14,6 @@ const read = (p) => JSON.parse(fs.readFileSync(path.join(ROOT, p), "utf8"));
 
 const profile = read("data/profile.json");
 const pubs = read("data/publications.json");
-const grants = read("data/grants.json");
-const teaching = read("data/teaching.json");
 
 const esc = (s) =>
   String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -142,8 +140,6 @@ function navbar(active) {
     ["index.html#about", "About"],
     ["index.html#appointments", "Positions"],
     ["publications.html", "Publications"],
-    ["index.html#grants", "Grants"],
-    ["index.html#teaching", "Teaching"],
     ["index.html#contact", "Contact"],
   ];
   return `<nav class="nav"><div class="wrap nav-inner">
@@ -256,30 +252,11 @@ ${navbar("home")}
   <div class="center-link"><a class="btn btn-ghost" href="publications.html">All publications ${I.ext}</a></div>
 </div></section>
 
-<section class="section" id="grants"><div class="wrap">
-  <div class="section-head"><span class="section-eyebrow">Funding</span><h2>Grants</h2></div>
-  <div class="grant-grid">
-    ${grants.map((g) => `<div class="grant-card">
-      <div class="gt">${esc(g.title)}</div>
-      <div class="meta"><span><b>${esc(g.years)}</b></span><span>${esc(g.agency)}</span>${g.amount ? `<span><b>${esc(g.amount)}</b></span>` : ""}</div>
-      <span class="role-tag">${esc(g.role)}</span>
-    </div>`).join("")}
-  </div>
-</div></section>
-
-<section class="section" id="teaching"><div class="wrap">
-  <div class="section-head"><span class="section-eyebrow">Teaching</span><h2>Teaching</h2></div>
-  <p class="teach-intro">${esc(teaching.intro)}</p>
-  <div class="courses">
-    ${teaching.courses.map((c) => `<div class="course"><span class="code">${esc(c.code)}</span><span class="title">${esc(c.title)}</span><span class="yrs">${esc(c.years)}</span></div>`).join("")}
-  </div>
-</div></section>
-
 <section class="section" id="contact"><div class="wrap">
   <div class="section-head"><span class="section-eyebrow">Get in touch</span><h2>Contact</h2></div>
   <div class="contact-card">
     <p>I'm always happy to hear about research collaborations, PhD and postdoc opportunities, and questions about my work. The best way to reach me is by email.</p>
-    <a class="btn btn-primary" href="mailto:swapnilmishra.anu@gmail.com">${I.email} swapnilmishra.anu@gmail.com</a>
+    <div class="email-row">${(profile.emails || []).map((e) => `<a class="btn btn-primary" href="mailto:${esc(e)}">${I.email} ${esc(e)}</a>`).join("")}</div>
     <div style="margin-top:22px">${socials()}</div>
   </div>
 </div></section>
@@ -378,5 +355,5 @@ fs.writeFileSync(path.join(OUT, ".nojekyll"), "");
 
 const featuredCount = pubs.filter((p) => p.featured).length;
 console.log(`✓ Built site → public/`);
-console.log(`  ${pubs.length} publications (${featuredCount} featured), ${grants.length} grants`);
+console.log(`  ${pubs.length} publications (${featuredCount} featured)`);
 console.log(`  pages: index.html, publications.html`);

@@ -28,8 +28,6 @@ All content lives in `data/*.json` — no HTML editing needed.
 - **`data/profile.json`** — name, titles, bio, research interests, education,
   appointments, honours/awards, and social links.
 - **`data/publications.json`** — the publication list (see below).
-- **`data/grants.json`** — grants.
-- **`data/teaching.json`** — teaching.
 - **`assets/img/profile.jpg`** — profile photo (replace this file to change it).
 - **`assets/files/cv.pdf`** — CV (replace this file to update).
 

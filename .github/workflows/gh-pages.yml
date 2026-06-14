@@ -1,40 +1,38 @@
 name: Deploy GitHub Pages
 
+# Builds the static site with `node build.mjs` and publishes ./public to the
+# gh-pages branch (served by GitHub Pages at s-mishra.github.io and by Netlify
+# at www.smishra.dev). Replaces the old Hugo build, which no longer works with
+# current Hugo versions.
+
 on:
   push:
     branches:
-      - main  # Set a branch name to trigger deployment
-  pull_request:
+      - main
+  workflow_dispatch:
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     permissions:
       contents: write
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: true
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          submodules: true  # Fetch any Git submodules (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          node-version: '20'
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-          extended: true
+      - name: Build site
+        run: node build.mjs
 
-      - name: Build
-        run: hugo --minify
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        # If you're changing the branch from main, 
-        # also change the `main` in `refs/heads/main` 
-        # below accordingly.
-        if: ${{ github.ref == 'refs/heads/main' }}
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-
+          publish_branch: gh-pages

@@ -1,0 +1,53 @@
+{
+  "name": "Swapnil Mishra",
+  "tagline": "Presidential Young Professor & Assistant Professor",
+  "affiliation": "Saw Swee Hock School of Public Health, National University of Singapore",
+  "affiliationUrl": "https://sph.nus.edu.sg/",
+  "photo": "assets/img/profile.jpg",
+  "location": "Singapore",
+  "shortIntro": "I work at the intersection of public health, machine learning and Bayesian modelling — building flexible, scalable models for epidemics and global health.",
+  "bio": [
+    "I am a Presidential Young Professor and Assistant Professor at the <a href=\"https://sph.nus.edu.sg/\">Saw Swee Hock School of Public Health</a>, National University of Singapore (NUS), working at the intersection of public health, machine learning and Bayesian modelling.",
+    "I am Deputy Director of the <a href=\"https://cerm.nus.edu.sg/\">Centre for Epidemic Research &amp; Modelling (CERM)</a> and of the AI for Public Health Programme at SSHSPH, and Assistant Director of the PhD Programme at the <a href=\"https://ids.nus.edu.sg/\">NUS Institute of Data Science (IDS)</a>. I co-founded the <a href=\"https://mlgh.net\">Machine Learning &amp; Global Health (MLGH) Network</a>, a multi-country, multi-organisation network doing fundamental research in machine learning for global health.",
+    "My research develops and applies statistical machine learning to the broader and messier world of science and public policy — especially global health. I build flexible, scalable models for spatiotemporal data such as epidemics (COVID-19, malaria, dengue, HIV), pathogen genomics, human mobility and crime. For my doctorate I built models for the evolution of popularity in social media, focused on point processes with both classical machine learning and modern deep learning."
+  ],
+  "interests": [
+    "Infectious Disease Modelling",
+    "Hierarchical Bayesian Modelling",
+    "Renewal & Branching Processes",
+    "Stochastic Point Processes",
+    "Generative Deep Learning",
+    "AI for Public Health",
+    "Online Information Diffusion",
+    "Bayesian Phylogenetics"
+  ],
+  "positions": [
+    {"role": "Presidential Young Professor & Assistant Professor", "org": "Saw Swee Hock School of Public Health, NUS", "url": "https://sph.nus.edu.sg/faculty-directory/mishra-swapnil/"},
+    {"role": "Deputy Director", "org": "Centre for Epidemic Research &amp; Modelling (CERM), SSHSPH", "url": "https://cerm.nus.edu.sg/people/swapnil-mishra/"},
+    {"role": "Deputy Director", "org": "AI for Public Health Programme, SSHSPH", "url": ""},
+    {"role": "Assistant Director, PhD Programme", "org": "Institute of Data Science (IDS), NUS", "url": "https://ids.nus.edu.sg/"},
+    {"role": "Joint appointments", "org": "Institute of Data Science &amp; Department of Statistics and Data Science, NUS", "url": ""},
+    {"role": "Co-founder", "org": "Machine Learning &amp; Global Health (MLGH) Network", "url": "https://mlgh.net"}
+  ],
+  "honours": [
+    {"year": "2025", "title": "Inaugural Temasek-Presidential Young Professorship", "org": "National University of Singapore"},
+    {"year": "2023", "title": "NRF Fellowship", "org": "National Research Foundation, Singapore"},
+    {"year": "2022", "title": "Blackwell-Rosenbluth Award", "org": "j-ISBA (International Society for Bayesian Analysis)"},
+    {"year": "2022", "title": "SPI-M-O Award for Modelling and Data Support (SAMDS)", "org": "UK SPI-M-O"},
+    {"year": "2021", "title": "Queen's Anniversary Prize", "org": "Imperial College London COVID-19 Response Team"}
+  ],
+  "education": [
+    {"degree": "PhD in Machine Learning (Computer Science)", "institution": "The Australian National University", "year": "2019"},
+    {"degree": "M.Comp. (Hons.) in Artificial Intelligence", "institution": "The Australian National University", "year": "2014"},
+    {"degree": "B.E. in Computer Engineering", "institution": "University of Pune", "year": "2009"}
+  ],
+  "social": [
+    {"label": "Email", "icon": "email", "url": "mailto:swapnilmishra.anu@gmail.com"},
+    {"label": "Google Scholar", "icon": "scholar", "url": "https://scholar.google.com/citations?user=RqbpaXcAAAAJ"},
+    {"label": "ORCID", "icon": "orcid", "url": "https://orcid.org/0000-0002-8759-5902"},
+    {"label": "GitHub", "icon": "github", "url": "https://github.com/s-mishra"},
+    {"label": "X / Twitter", "icon": "twitter", "url": "https://twitter.com/creswapi"},
+    {"label": "NUS Profile", "icon": "university", "url": "https://discovery.nus.edu.sg/24081-swapnil-mishra"},
+    {"label": "CV", "icon": "cv", "url": "assets/files/cv.pdf"}
+  ]
+}

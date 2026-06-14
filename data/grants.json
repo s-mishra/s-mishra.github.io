@@ -1,0 +1,37 @@
+[
+  {
+    "title": "NRF Fellowship",
+    "years": "2023-2028",
+    "agency": "National Research Foundation, Singapore",
+    "amount": "",
+    "role": "Principal Investigator"
+  },
+  {
+    "title": "Digital Technology Development Award",
+    "years": "2022-2027",
+    "agency": "Wellcome Trust / Imperial College London",
+    "amount": "US$612,665",
+    "role": "Co-Principal Investigator"
+  },
+  {
+    "title": "Imperial COVID-19 Response Fund",
+    "years": "2020-2021",
+    "agency": "Imperial College London",
+    "amount": "£46,975",
+    "role": "Co-Investigator"
+  },
+  {
+    "title": "Microsoft AI for Health Program",
+    "years": "2020-2021",
+    "agency": "Microsoft",
+    "amount": "US$130,000",
+    "role": "Co-Investigator"
+  },
+  {
+    "title": "Amazon AWS Compute Grant",
+    "years": "2020-2021",
+    "agency": "Amazon",
+    "amount": "US$40,000",
+    "role": "Co-Investigator"
+  }
+]

@@ -29,6 +29,12 @@ All content lives in `data/*.json` — no HTML editing needed.
   appointments, honours/awards, and social links.
 - **`data/publications.json`** — the publication list (see below).
 - **`assets/img/profile.jpg`** — profile photo (replace this file to change it).
+
+Email addresses (in `data/profile.json` → `emails` and the `mailto:` social
+entry) are **obfuscated at build time** — encoded into a `data-` attribute and
+assembled into a clickable link by `assets/js/main.js` at runtime, so the plain
+address never appears in the served HTML. To change an address, just edit the
+plaintext value in `data/profile.json`; the build handles the encoding.
 - **`assets/files/cv.pdf`** — CV (replace this file to update).
 
 ### Add or feature a publication

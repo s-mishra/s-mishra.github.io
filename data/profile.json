@@ -47,7 +47,6 @@
     {"label": "Google Scholar", "icon": "scholar", "url": "https://scholar.google.com/citations?user=RqbpaXcAAAAJ"},
     {"label": "ORCID", "icon": "orcid", "url": "https://orcid.org/0000-0002-8759-5902"},
     {"label": "GitHub", "icon": "github", "url": "https://github.com/s-mishra"},
-    {"label": "NUS Profile", "icon": "university", "url": "https://discovery.nus.edu.sg/24081-swapnil-mishra"},
-    {"label": "CV", "icon": "cv", "url": "assets/files/cv.pdf"}
+    {"label": "NUS Profile", "icon": "university", "url": "https://discovery.nus.edu.sg/24081-swapnil-mishra"}
   ]
 }

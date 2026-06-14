@@ -15,6 +15,19 @@
     });
   }
 
+  /* ----- Email de-obfuscation (assemble mailto links at runtime so the
+     address is never present as plaintext/mailto in the static HTML) ----- */
+  function decodeEmail(s) {
+    try { return atob(s).split("").reverse().join(""); } catch (e) { return ""; }
+  }
+  Array.prototype.forEach.call(document.querySelectorAll(".email-link"), function (a) {
+    var email = decodeEmail(a.getAttribute("data-e") || "");
+    if (!email) return;
+    a.setAttribute("href", "mailto:" + email);
+    var label = a.querySelector(".et");
+    if (label) label.textContent = email;
+  });
+
   /* ----- Mobile nav ----- */
   var burger = document.getElementById("navBurger");
   var navLinks = document.getElementById("navLinks");

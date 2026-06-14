@@ -20,6 +20,13 @@ const esc = (s) =>
 const YEAR = new Date().getFullYear();
 const SITE = "https://www.smishra.dev";
 
+/* Obfuscate an email so it isn't present as plaintext / mailto: in the HTML.
+   Stored as base64 of the reversed address; assembled into a mailto link by JS
+   at runtime (see assets/js/main.js). Defeats regex/DOM email harvesters. */
+function obfEmail(email) {
+  return Buffer.from(email.split("").reverse().join(""), "utf8").toString("base64");
+}
+
 /* canonical link for a publication; never empty (falls back to a Scholar search) */
 function pubHref(p) {
   if (p.doi) return "https://doi.org/" + p.doi;
@@ -156,9 +163,13 @@ function navbar(active) {
 
 function socials() {
   return `<div class="socials">${profile.social.map((s) => {
-    const icon = s.icon === "cv" ? `<span style="font-weight:700;font-size:.8rem;letter-spacing:.04em">CV</span>` : I[s.icon] || I.ext;
-    const cls = s.icon === "cv" ? "cv-pill" : "";
-    return `<a class="${cls}" href="${esc(s.url)}" title="${esc(s.label)}" aria-label="${esc(s.label)}"${s.url.startsWith("http") ? ' target="_blank" rel="noopener"' : ""}>${icon}</a>`;
+    const icon = I[s.icon] || I.ext;
+    if (s.url.startsWith("mailto:")) {
+      // email: no plaintext / mailto in HTML — JS assembles the link at runtime
+      return `<a class="email-link" data-e="${obfEmail(s.url.slice(7))}" title="${esc(s.label)}" aria-label="${esc(s.label)}" role="link" tabindex="0">${icon}</a>`;
+    }
+    const ext = s.url.startsWith("http") ? ' target="_blank" rel="noopener"' : "";
+    return `<a href="${esc(s.url)}" title="${esc(s.label)}" aria-label="${esc(s.label)}"${ext}>${icon}</a>`;
   }).join("")}</div>`;
 }
 
@@ -207,7 +218,7 @@ ${navbar("home")}
     <p class="intro">${esc(profile.shortIntro)}</p>
     <div class="cta-row">
       <a class="btn btn-primary" href="publications.html">${I.doc} View Publications</a>
-      <a class="btn btn-ghost" href="assets/files/cv.pdf" target="_blank" rel="noopener">Download CV</a>
+      <a class="btn btn-ghost" href="index.html#contact">${I.email} Get in touch</a>
     </div>
     ${socials()}
   </div>
@@ -256,7 +267,7 @@ ${navbar("home")}
   <div class="section-head"><span class="section-eyebrow">Get in touch</span><h2>Contact</h2></div>
   <div class="contact-card">
     <p>I'm always happy to hear about research collaborations, PhD and postdoc opportunities, and questions about my work. The best way to reach me is by email.</p>
-    <div class="email-row">${(profile.emails || []).map((e) => `<a class="btn btn-primary" href="mailto:${esc(e)}">${I.email} ${esc(e)}</a>`).join("")}</div>
+    <div class="email-row">${(profile.emails || []).map((e) => `<a class="btn btn-primary email-link" data-e="${obfEmail(e)}" aria-label="Email" role="link" tabindex="0">${I.email} <span class="et">${esc(e.replace("@", " [at] "))}</span></a>`).join("")}</div>
     <div style="margin-top:22px">${socials()}</div>
   </div>
 </div></section>
